@@ -1,0 +1,18 @@
+{
+  "name": "starfall",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Starfall \u2014 a Phaser 3 space shooter playable",
+  "scripts": {
+    "dev": "node api.js && vite",
+    "build": "node api.js && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^5.4.2"
+  },
+  "dependencies": {
+    "phaser": "^3.80.1"
+  }
+}
